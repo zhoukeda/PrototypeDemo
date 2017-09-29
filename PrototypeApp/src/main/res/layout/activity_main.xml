@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.mytouchapp.TestLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+        <com.example.mytouchapp.TestTextView
+            android:id="@+id/test1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="72sp"
+            android:textColor="@color/colorPrimary"
+            android:text="text1" />
+
+        <com.example.mytouchapp.TestTextView2
+            android:id="@+id/test2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="72sp"
+            android:textColor="@color/colorPrimary"
+            android:text="text2" />
+</com.example.mytouchapp.TestLayout>
